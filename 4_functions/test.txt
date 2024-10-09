@@ -1,0 +1,1 @@
+This a program to read a file and count the frequency of each word in the file.
