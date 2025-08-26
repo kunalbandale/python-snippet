@@ -44,27 +44,3 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name python-snippet
 jupyter notebook
 ```
-
-## Requirements
-
-See `requirements.txt`. Current minimal set:
-
-- `ipykernel`
-- `numpy`
-
-Add more as notebooks require them (e.g., `pandas`, `matplotlib`).
-
-## Usage
-
-- Open the desired `.ipynb` under the relevant topic folder.
-- Run cells sequentially; refer to accompanying `*_notes.md` for explanations.
-
-## Contributing
-
-- Keep notebooks focused and self-contained.
-- Prefer small, topic-scoped additions.
-- Do not commit large data files; add new dependencies to `requirements.txt`.
-
-## License
-
-Specify a license here if applicable (e.g., MIT).
